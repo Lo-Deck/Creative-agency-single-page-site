@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Exercise Frontend Mentor, Creative single page site">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+      <link href="styles.css" rel="stylesheet" type="text/css">
+      <title>Frontend Mentor | Creative single page site</title>
+    </head>
+    <body>
+
+      <header class="header-container">
+
+        <div class="index">
+          <img class="logo" src="./images/desktop/logo.svg" alt="logo creative">
+          <button class="button button-nav"><img class="hamburger" src="./images/mobile/icon-hamburger.svg" alt="button menu"></button>          
+        </div>
+
+        <nav class="nav-menu">
+          <ul class="list list-nav text-regular">
+            <li class="li-nav"><a href="">About</a></li>
+            <li class="li-nav"><a href="">Service</a></li>
+            <li class="li-nav"><a href="">Projects</a></li>
+            <li class="li-nav"><button class="button button-red">Schedule a call</button></li>
+          </ul>
+        </nav>
+
+      </header>
+
+
+      <main class="main-container">
+
+        <section class="section-top">
+
+          <picture class="image-container">
+            <source srcset="./images/tablet/image-hero.jpg" media="(min-width:48rem)">
+            <source srcset="./images/desktop/image-hero.jpg" media="(min-width:90rem)">
+            <img class="image" src="./images/mobile/image-hero.jpg" alt="hero">
+          </picture>
+
+          <div class="section-top-text">
+            <h1 class="main-title text-extra-bold">Branding & website design agency</h1>
+            <p class="text-regular">We specialize in visual storytelling by creating cohesive brand and website design 
+              solutions for small businesses, giving lasting impressions to audiences in a digital world.</p>
+            <button class="button button-red">Learn more</button>  
+          </div>
+
+        </section>
+
+        <section class="section-middle">
+
+          <div class="wave-red">
+            <picture class="image-container">
+              <source srcset="./images/desktop/image-strategic.jpg" media="(min-width:90rem)">
+              <source srcset="./images/tablet/image-strategic.jpg" media="(min-width:48rem)">
+              <img class="image" src="./images/mobile/image-strategic.jpg" alt="working on laptop">
+            </picture>
+            <div class="background-wave-red"></div>
+          </div>
+
+          <div class="section-middle-text">
+            <h2 class="section-title text-extra-bold"><span>Design</span> is strategic.</h2>
+            <p class="text-regular">"A well-crafted design strategy consistently produces desired outcomes and brand awareness. 
+              We are firm believers that success lies in creative collaboration with our clients."</p>
+            <button class="button button-tr">Schedule a call</button>
+          </div>
+
+        </section>
+
+
+        <article class="container-article">
+
+          <h2 class="section-title text-extra-bold">Our approach for creating a winning brand</h2>
+
+          <div class="container-section-quality">
+
+            <section class="quality">
+              <h3 class="lower-title text-extra-bold"><span class="text-extra-bold">01</span>Brand strategy</h3>
+              <p class="text-regular">Brand strategy is critical for long-term success. Outshining competitors and capturing 
+              the target audience are key.</p>
+            </section>
+
+            <section class="quality">
+              <h3 class="lower-title text-extra-bold"><span class="text-extra-bold">02</span>Brand design</h3>
+              <p class="text-regular">Keeping the brand design unique and meaningful helps in communicating the brand’s timeless 
+              value effectively.</p>
+            </section>
+
+            <section class="quality">
+              <h3 class="lower-title text-extra-bold"><span class="text-extra-bold">03</span>Web design</h3>
+              <p class="text-regular">A beautifully crafted website is the best tool for brand awareness, and ultimately results 
+              in increased revenues.</p>
+            </section>  
+
+          </div>
+
+        </article>
+
+
+        <section class="slider">
+
+          <div class="container-slider">
+            <div class="carousel">
+              <ul class="list list-image">
+                <li class="li-image">
+                  <picture class="image-container">
+                    <source srcset="./images/desktop/image-slide-1.jpg" media="(min-width:90rem)">
+                    <source srcset="./images/tablet/image-slide-1.jpg" media="(min-width:48rem)">
+                    <img class="image" src="./images/mobile/image-slide-1.jpg" alt="working on laptop">
+                  </picture>   
+                </li>
+
+                <li class="li-image">
+                  <picture class="image-container">
+                    <source srcset="./images/desktop/image-slide-2.jpg" media="(min-width:90rem)">
+                    <source srcset="./images/tablet/image-slide-2.jpg" media="(min-width:48rem)">
+                    <img class="image" src="./images/mobile/image-slide-2.jpg" alt="working on laptop">
+                  </picture>                 
+                </li>
+
+                <li class="li-image">
+                  <picture class="image-container">
+                    <source srcset="./images/desktop/image-slide-3.jpg" media="(min-width:90rem)">
+                    <source srcset="./images/tablet/image-slide-3.jpg" media="(min-width:48rem)">
+                    <img class="image" src="./images/mobile/image-slide-3.jpg" alt="working on laptop">
+                  </picture> 
+                </li>
+              </ul>
+            </div>
+            <p class="project text-regular"><span class="text-extra-bold">Lean Product Roadmap</span>2019 project</p>
+          </div>
+
+          <div class="container-text-slider">
+            <h2 class="section-title text-extra-bold">Brand naming & guidelines</h2>
+            <div class="container-button">
+              <button class="button button-slider left"><svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(-1 0 0 1 40 0)" stroke="#F94F4F" fill="none" fill-rule="evenodd"><circle cx="20" cy="20" r="19.5"/><path stroke-width="2" d="M17.5 15l5 5-5 5"/></g></svg></button>
+              <button class="button button-slider right"><svg width="40" height="40" xmlns="http://www.w3.org/2000/svg"><g stroke="#F94F4F" fill="none" fill-rule="evenodd"><circle cx="20" cy="20" r="19.5"/><path stroke-width="2" d="M17.5 15l5 5-5 5"/></g></svg></button>
+            </div>
+            <div class="background-wave-white"></div>
+          </div>
+           
+        </section>
+
+        <section class="section-bottom">
+          <h2 class="section-title text-extra-bold">Let's build something great together.</h2>
+          <button class="button button-red">Schedule a Call</button>
+        </section>
+
+      </main>
+
+    <script src="./script.js"></script>
+
+    </body>
+</html>
