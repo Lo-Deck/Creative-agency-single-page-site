@@ -451,6 +451,12 @@ a{
     grid-row: 1;
   }
 
+  .section-top .image{
+
+    max-height: 800px;    
+
+  }
+
   .section-top-text{
     grid-column: 1 / 8;
     grid-row: 1;    
@@ -478,7 +484,12 @@ a{
     height: clamp(1.8125rem, -0.4732rem + 4.7619vw, 3.8125rem);
     background: url(./images/desktop/bg-pattern-wave-red.svg) no-repeat center / contain;
     position: absolute;
-      top: clamp(9rem, -1.2857rem + 21.4286vw, 18rem); bottom: unset; left: unset; right: clamp(-4rem, 2.4286rem + -7.1429vw, -1rem);
+      top: clamp(9rem, -1.2857rem + 21.4286vw, 18rem); bottom: unset; left: unset; right: clamp(-4rem, 2.4286rem + -7.1429vw, -1rem); 
+  }
+
+  .section-middle .image-container{
+
+    
   }
 
   .section-middle .image{
@@ -519,6 +530,7 @@ a{
     margin-top: clamp(8.375rem, 2.6607rem + 11.9048vw, 13.375rem);
     position: relative;
       left: clamp(0rem, -11.6429rem + 24.256vw, 10.1875rem);
+    z-index: 2;
   }
 
   .container-section-quality{
@@ -526,6 +538,7 @@ a{
     width:  clamp(27.375rem, -5.2679rem + 68.006vw, 55.9375rem);
     padding: clamp(8.75rem, 3.3214rem + 11.3095vw, 13.5rem) 0 clamp(7.75rem, 1.75rem + 12.5vw, 13rem) clamp(3.75rem, -16.6071rem + 42.4107vw, 21.5625rem);
     margin-top: clamp(-12.5rem, -1.7857rem + -11.9048vw, -7.5rem);
+    z-index: 1;
   }
 
   .quality{
